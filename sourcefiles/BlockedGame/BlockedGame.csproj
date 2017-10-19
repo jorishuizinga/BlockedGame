@@ -35,6 +35,7 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enemy.cs" />
     <Compile Include="GameCore.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="MainClass.cs" />
