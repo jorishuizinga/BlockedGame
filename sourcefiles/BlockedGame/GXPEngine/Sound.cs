@@ -42,10 +42,6 @@ namespace GXPEngine
 				FMOD.System_CreateSound( _system, filename, loop, 0, out _id );
 			}
 		}
-		
-		~Sound()
-		{
-		}
 
 		internal static void Step() 
 		{
