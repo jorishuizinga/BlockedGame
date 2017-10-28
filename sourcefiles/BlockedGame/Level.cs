@@ -11,5 +11,9 @@
         public void Update(){
             
         }
+
+        public float GetFloor(Sprite sprite){
+            return game.height - sprite.height;
+        }
     }
 }
